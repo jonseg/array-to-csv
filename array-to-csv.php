@@ -1,5 +1,13 @@
 <?php
 
+/** 
+ * Convert a PHP array into CSV
+ * 
+ * @author Jon Segador <jonseg@gmail.com> || http://jonsegador.com
+ * https://github.com/jonseg/array-to-csv
+ * 
+ */
+
 class arrayToCsv{
 
 	protected $delimiter;
