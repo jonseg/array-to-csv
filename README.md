@@ -29,6 +29,13 @@ The usage is very simple:
 	// Convert array to csv (you probably want to create a file with this info)
 	echo $csv->convert($arr);
 
+	// Output
+	/*
+	"A4"|"Audi"|"1994"
+	"CLK"|"Mercedes"|"2005"
+	"Golf"|"Volkswagen"|"2008"	
+	*/
+
 
 ## Autor ##
 

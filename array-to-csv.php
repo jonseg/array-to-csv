@@ -41,37 +41,3 @@ class arrayToCsv{
 	}
 
 }
-
-
-
-// How to use
-$arr = array(
-	array(
-		"name" => "A4",
-		"manufacturer" => "Audi",
-		"year" => "1994"
-	),
-	array(
-		"name" => "CLK",
-		"manufacturer" => "Mercedes",
-		"year" => "2005"
-	),	
-	array(
-		"name" => "Golf",
-		"manufacturer" => "Volkswagen",
-		"year" => "2008"
-	),		
-);
-
-
-$csv = new arrayToCsv();
-echo $csv->convert($arr);
-
-
-/* OUTPUT
-
-"A4"|"Audi"|"1994"
-"CLK"|"Mercedes"|"2005"
-"Golf"|"Volkswagen"|"2008"
-
-*/
