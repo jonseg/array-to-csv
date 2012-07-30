@@ -1,9 +1,6 @@
-array-to-csv
-============
+# Convert a PHP array to CSV #
 
-# Convert a PHP array into CSV #
-
-This class written in php, convert a PHP array into CSV.
+This class written in php, convert a PHP array to CSV.
 
 The usage is very simple:
 
